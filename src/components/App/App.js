@@ -8,7 +8,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = { businesses: [] };
-        //Yelp.getAccessToken();
+        // Yelp.getAccessToken();
         // Yelp.search('taco','','best_match');
         this.searchYelp = this.searchYelp.bind(this);
     }
